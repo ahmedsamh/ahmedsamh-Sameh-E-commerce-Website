@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.w3schools.com/lib/w3-colors-flat.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2f67458a51.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Sameh</title>
+  </head>
+  <body>
+    <header class="mb-3 header" id="top">
+      <div class="w3-top">
+        <div class="w3-bar w3-black w3-card header">
+          <a
+            class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+            href="javascript:void(0)"
+            onclick="myFunction()"
+            title="Toggle Navigation Menu"
+            ><i class="fa fa-bars"></i
+          ></a>
+          <a href="../index.html" class="w3-bar-item w3-button w3-padding-large"
+            ><img style="width:75px;"  src="../imgs/Capture-removebg-preview.png" alt=""></a
+          >
+          <a
+            href="shopping-cart.html"
+            class="w3-bar-item w3-button w3-padding-large"
+            ><iconify-icon
+              inline
+              icon="material-symbols:shopping-cart-outline"
+              style="color: white"
+              width="24"
+              height="24"
+            ></iconify-icon
+          ></a>
+          <span class="w3-right">
+            <a
+              href="../index.html"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Home</a
+            >
+            <a
+              href="../index.html#gallery"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Gallery</a
+            >
+            <a
+              href="../index.html#new-arrivals"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >New Arrivals</a
+            >
+            <a
+              href="../index.html#testimony"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Testimony</a
+            >
+            <a
+              href="#contact"
+              class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+              >Contact</a
+            >
+          </span>
+        </div>
+      </div>
+
+      <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+        style="margin-top: 46px"
+      >
+        <a
+          href="../index.html"
+          class="w3-bar-item w3-button w3-padding-large"
+          onclick="myFunction()"
+          >Home</a
+        >
+        <a
+          href="../index.html#gallery"
+          class="w3-bar-item w3-button w3-padding-large"
+          onclick="myFunction()"
+          >Gallery</a
+        >
+        <a
+          href="../index.html#new-arrivals"
+          class="w3-bar-item w3-button w3-padding-large"
+          onclick="myFunction()"
+          >New Arrivals</a
+        >
+        <a
+          href="../index.html#testimony"
+          class="w3-bar-item w3-button w3-padding-large"
+          onclick="myFunction()"
+          >Testimony</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button w3-padding-large"
+          onclick="myFunction()"
+          >Contact</a
+        >
+      </div>
+    </header>
+    <div class="w3-container">
+      <h2 class="section-text-header">kids's style</h2>
+    </div>
+
+    <div class="new-arrived-products" id="new-arrivals">
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/هاي كول صوف أولادي.jpg"
+            alt="milada-vigerova"
+          />
+          <div class="click">
+            <button>BUY NOW</button>
+          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4 style="text-overflow: ellipsis; overflow: hidden ;">
+            هاي كول صوف أولادي.
+          </h4>
+          <p class="w3-small">8 items in store</p>
+          <p class="w3-small">gray | white | black</p>
+          <p class="price"><del>$15.00</del> &nbsp;$12.00</p>
+        </div>
+      </div>
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/ترنج أطفال بناتي.jpg"
+            alt="cristofer-maximilian"
+          />
+          <div class="click">
+            <a href="product.html">
+              <button>BUY NOW</button>
+              </a>          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4 style="text-overflow: ellipsis; overflow: hidden">
+            ترنج أطفال بناتي
+          </h4>
+          <p class="w3-small">10 items in store</p>
+          <p class="w3-small">gray | yellow | black</p>
+          <p class="price">$23.00</p>
+        </div>
+      </div>
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/ترنج أولادي رياضي.jpg"
+            alt="gez-xavier-mansfield"
+          />
+          <div class="click">
+            <a href="product.html">
+              <button>BUY NOW</button>
+              </a>
+          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4>ترنج أولادي رياضي</h4>
+          <p>6 items in store</p>
+          <p class="w3-small">gray | blue-black</p>
+          <p class="price">
+            $10.00
+            <span
+              style="border: 2px solid black; margin-left: 15px; padding: 0 5px"
+              >50% off</span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/جاكيت أولادي .jpg"
+            alt="wander-fleur"
+          />
+          <div class="click">
+            <a href="product.html">
+              <button>BUY NOW</button>
+              </a>
+          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4>جاكيت أولادي </h4>
+          <p class="w3-small">2 items in store</p>
+          <p class="w3-small">white | black</p>
+          <p class="price">$16.00</p>
+        </div>
+      </div>
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/هاي كول صوف بناتي .jpg"
+            alt="signature-june"
+          />
+          <div class="click">
+            <a href="product.html">
+              <button>BUY NOW</button>
+              </a>
+          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4>هاي كول صوف بناتي </h4>
+          <p class="w3-small">5 items store</p>
+          <p class="w3-small">Red | black</p>
+          <p class="price">$24.00</p>
+        </div>
+      </div>
+      <div class="new-product">
+        <div class="new-arrived-image">
+          <img
+            src="../imgs/روب من الفيلور بتصميم أرنب.jpg"
+            alt="kemal-alkan"
+          />
+          <div class="click">
+            <a href="product.html">
+              <button>BUY NOW</button>
+              </a>
+          </div>
+        </div>
+        <div class="w3-margin-top" style="overflow: hidden; padding: 0px 20px">
+          <h4>روب من الفيلور بتصميم أرنب</h4>
+          <p class="w3-small">4 items in store</p>
+          <p class="w3-small">Red | yellow | black</p>
+          <p class="price">$15.00</p>
+        </div>
+      </div>
+    </div>
+    <nav aria-label="" class="d-flex justify-content-center mt-5">
+      <ul class="pagination">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link text-body" href="kid's style.html">1</a>
+        </li>
+        <li class="page-item" aria-current="page">
+          <a class="page-link text-body" href="kid's style2.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-body" href="kid's style2.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="w3-light-gray" style="margin-top: 40px; padding: 50px 0px">
+      <div class="w3-center contact" id="contact">
+        <div class="w3-left-align w3-margin-top contact-info">
+          <h3 style="font-weight: 800" class="contact-head">GET IN TOUCH</h3>
+          <h4 style="font-weight: 600">Your styles at low cost</h4>
+          <p>
+            We care about our customers<br />you can contact us for any feedback
+          </p>
+          <h4 style="font-weight: 600">Follow Us</h4>
+
+          <i class="fa fa-facebook-official w3-hover-opacity icons"></i>
+          <i class="fa fa-instagram w3-hover-opacity icons"></i>
+          <i class="fa fa-snapchat w3-hover-opacity icons"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity icons"></i>
+          <i class="fa fa-twitter w3-hover-opacity icons"></i>
+          <i class="fa fa-linkedin w3-hover-opacity icons"></i>
+        </div>
+        <div class="w3-left-align w3-margin-top contact-info">
+          <h3 style="font-weight: 600">OPENING HOURS</h3>
+          <p>Mon - Sat 7am - 9pm:</p>
+          <p>Opening on Morning | Off at afternoon</p>
+          <p>Delivery only on opening hours</p>
+          <br />
+          <div class="w3-margin-to w3-left-align">
+            <h4 style="font-weight: 600">CONTACT INFO</h4>
+            <p>
+              <i
+                class="fa fa-phone"
+                style="margin-right: 8px; font-size: 20px"
+              ></i>
+              (+20)010-336-5784
+            </p>
+            <p>
+              <i
+                class="fa fa-phone"
+                style="margin-right: 8px; font-size: 20px"
+              ></i
+              >(+20)010-336-5784
+            </p>
+            <label
+              ><i
+                class="fa fa-envelope"
+                style="margin-right: 5px; font-size: 20px"
+              ></i
+            ></label>
+            <input placeholder="Email" class="w3-margin-top" type="email" />
+            <br />
+            <br />
+            <button class="w3-button w3-red w3-round" style="margin-left: 30px">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-flat-midnight-blue w3-padding w3 w3-center">
+      <p>Made By Ahmed Sameh ♥ 2022</p>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+    <script src="../js/main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  </body>
+</html>
